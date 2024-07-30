@@ -1,0 +1,122 @@
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: hsl(330, 100%, 98%);
+}
+
+.container {
+  /* border: 1px solid black; */
+  padding: 0 30px;
+}
+.header h1 {
+  font-size: 40px;
+}
+
+.header p {
+  font-size: 20px;
+}
+
+.list {
+  background-color: hsl(30, 54%, 90%);
+  height: 250px;
+  padding: 10px;
+  color: hsl(14, 45%, 36%);
+}
+
+.list h2 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.list ul {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+ul li {
+  padding-left: 20px;
+}
+
+.lists {
+  padding: 10px;
+  color: hsl(14, 45%, 36%);
+}
+
+.lists h2 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.lists ul {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.lists ol {
+  font-size: 20px;
+}
+
+ol li {
+  padding-left: 20px;
+  line-height: 35px;
+  margin: 12px;
+}
+
+li span {
+  font-weight: bold;
+}
+
+.table {
+  padding: 10px;
+  height: 500px;
+  color: hsl(14, 45%, 36%);
+}
+
+.table h2 {
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.table p {
+  font-size: 20px;
+}
+
+.table table {
+  width: 100%;
+}
+th,
+td {
+  border-bottom: 1px solid black;
+  text-align: left;
+  padding: 8px;
+  font-size: 20px;
+}
+
+td {
+  font-weight: bold;
+}
+
+tr {
+  line-height: 40px;
+}
+
+@media screen and (min-width: 416px) {
+  .box {
+    width: 375px;
+    background-color: rgb(255, 255, 255);
+    margin: 100px 40%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+
+  .image {
+    padding:  20px;    
+  }
+}
